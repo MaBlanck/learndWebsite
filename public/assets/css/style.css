@@ -1,0 +1,112 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    background-color: #000;
+    color: white;
+
+}
+.L {
+    color: 	#1FAEE2;
+    font-size: 7em;
+}
+.E {
+    color: #911982;
+    font-size: 7em;
+}
+.A {
+    color: #EF177E;
+    font-size: 7em;
+}
+.R {
+    color: #F15A19;
+    font-size: 7em;
+}
+.N {
+    color:#f1db19;
+    font-size: 7em;
+}
+.D {
+    color:#1FAEE2;
+    font-size: 7em;
+}
+.card {
+    background-color: #000;
+    border: 1px #911982 solid;
+    border-bottom-left-radius: 20px;
+    box-shadow: 5px 5px 4px #EF177E;
+}
+.card:hover {
+    box-shadow: 5px 5px 4px #1FAEE2;
+    border: 1px solid #1FAEE2;
+}
+
+.btn {
+    color: white;
+    border: 1px solid #911982 !important;
+    background-color: #911982 !important;
+}
+.btn:hover {
+    background-color: #1FAEE2 !important;
+}
+.img-logo {
+    width: 50px;
+    height: auto;
+}
+h3 {
+    color: #EF177E;
+}
+h2 {
+    color:#F15A19;
+    font-weight: 700;
+}
+
+h5, h6 {
+    color: #911982;
+}
+.names {
+    color: #1FAEE2;
+}
+.companyNames {
+    color: #EF177E;
+}
+.navbar {
+    background-color: #000;
+    box-shadow: 0px 5px 10px #911982;
+}
+.bottom {
+    box-shadow: 5px 0px 15px #911982;
+}
+.nav-link {
+    color: #F15A19;
+}
+.nav-link:hover {
+    color: #911982;
+}
+.navbar-toggler {
+    border-color: #911981b6;
+}
+.homeBars {
+    color: #911982 !important;
+}
+.logoBrand {
+    height: 40px;
+    width: auto;
+}
+.hrRoadmap {
+    border: 1px solid #ef177fc7;
+    width: 150px;
+
+}
+.contact {
+    color: #911982;
+}
+.contact:hover {
+    color: #F15A19;
+}
+
+@media only screen and (max-width: 600px) {
+    .L, .E, .A, .R, .N, .D {
+    font-size: 5em;
+    }
+}

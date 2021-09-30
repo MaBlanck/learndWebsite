@@ -1,0 +1,7 @@
+Options +FollowSymlinks
+<IfModule mod_rewrite.c>
+RewriteEngine on
+#RewriteBase /public
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.*)$ index.php?view=$1 [L]
+</IfModule>
